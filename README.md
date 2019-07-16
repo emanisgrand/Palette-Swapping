@@ -2,6 +2,10 @@
 # Palette-Swapping
 ### Palette swapping script. Optimized for performance. Created for learning.
 
+## Installation & Set-Up
+The [Palette_Swap Unity Package](https://github.com/emanisgrand/Palette-Swapping/tree/master/Builds) should have everything you need to get started including example images, and all necessary files. Just download the package and import it into your Unity project.
+
+
 ## Want to Contribute?
 <table>
   <tr>
