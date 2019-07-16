@@ -11,6 +11,7 @@
 </td>
  </tr>
 </table>
+
 My current TODOs:
 - Optimize Draw Calls
 
@@ -23,20 +24,25 @@ When you right click a valid texture (such as a sprite sheet) > Click `Create` >
 ![img](https://github.com/emanisgrand/Palette-Swapping/blob/master/README/Create%20a%20new%20scriptable%20obj.gif)
 
 ## How It Works
-The `Color Paltte` is a custom Asset Utilitiy which samples unique colors from the selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. In the example scene, the image file isolates every last color in the sprite in order to optimize the scan.
+The `Color Paltte` is a custom Asset Utilitiy which samples unique colors from the selected texture. The image is scanned from top-left to the bottom-right point kind of like a typewriter. This is why the images used in the example scene have all of its colors in the top-left part of the image. 
 
+//TODO:
+[PICTURE OF ZOMBIE HERE]
 
-It scans the entire image for unique colors, and outputs a color palette object...
+This is not required in order for the palette swapper to work, but is a great way to optimize the image scan. The fewer the colors in your spritesheet, the easier it will be to maintain, but ultimately it's up to you.
+As long as you include an offset on your spritesheets, 
+//TODO:
+[SHOW IMAGE OF SPRITE SHEET EDITOR]
+those colors will never be rendered. 
 
-
-which you can then place on any sprite containing the `Palette Swapper` script.  
+Once it's created, you can then place your new palette on any sprite containing the `Palette Swapper` script component.  
 ![img](https://github.com/emanisgrand/Palette-Swapping/blob/master/README/palette-swap-script.PNG)
 
-The fewer amount of colors your spritesheet has, the easier it will be, but it's all up to you.
 
-Once you have a new palette, simply use the color picker in the `New Color` column to replace the original colors, and apply the new palette to your gameobject. 
+
+Once you have a new palette, simply use the color picker in the `New Color` column to replace the original colors, and apply the new palette to your Sprite. 
+
+//TODO:
+[IMG EXAMPLE]
 
 No need to reanimate a ready-to-play sprite. 
-
-
-
