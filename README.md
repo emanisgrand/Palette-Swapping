@@ -11,7 +11,7 @@
  </tr>
 </table>
 
-When you right click a valid texture > go to Create > and select `Create Palette`, the Palette Swapper samples colors from the  selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. It scans the entire image for unique colors, and outputs a color palette object...
+When you right click a valid texture > go to `Create` > and select `Color Palette`, the Palette Swapper samples colors from the  selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. It scans the entire image for unique colors, and outputs a color palette object...
 ![img](https://github.com/emanisgrand/Palette-Swapping/blob/master/README/Create%20a%20new%20scriptable%20obj.gif)
 
 which you can then place on any sprite containing the `Palette Swapper` script.  
