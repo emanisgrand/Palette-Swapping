@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PaletteSwapping.unity
+    guid: ca7909bb0f768f64facc60d7f72f96fe
   m_configObjects: {}
