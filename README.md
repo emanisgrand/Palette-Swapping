@@ -6,9 +6,8 @@
 <table>
   <tr>
     <td>
-       
-    Reach out to me if you have any questions and feel free to use the examples here for your own palette swap tool.
-    This project is openly available for anyone to use or clone and contribute to. If there's anything you think you can add to it, please do.   
+       Reach out to me if you have any questions and feel free to use the examples here for your own palette swap tool. 
+      This project is openly available for anyone to use or clone and contribute to. If there's anything you think you can add to it, please do.   
 </td>
  </tr>
 </table>
