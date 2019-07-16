@@ -199,7 +199,7 @@ Now we're gonna need a way to remap the default color in the texture to the new 
 
 At this point, due to some of the things we're referencing, we won't actually be able to compile this into a final game.
 
-## Ch 6 Optimizing
+## Optimizing
 
 16:40
 
