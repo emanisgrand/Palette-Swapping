@@ -1,13 +1,23 @@
-# Palette-Swapping
-Basic palette swapping script. Optimized for performance. Made for learning.
 
-Reader beware: The following README is just the transcribed notes that I took while making the palette swap code. It was not written with the intention to be an actual README document. Also, some of the formatting in the code examples in the readme itself did not translate correctly when converted into the .md file that you see before you. Thank you for understanding. Please reach out to me if you have any questions and feel free to use the examples in this repo for your own palette swap tool. 
+# Palette-Swapping
+### Basic palette swapping script. Optimized for performance. Made for learning.
+
+
 
 <table>
   <tr>
-    <td> When you right click a valid texture > go to Create > and select `Create Palette`, the Palette Swapper samples colors from the  selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. It scans the entire image for unique colors, and outputs a color palette object which you can place on any sprite containing the `Palette Swapper` script.  </td>
-  </tr>
+    <td>
+    Reader beware: The following README is just the transcribed notes that I took while making the palette swap code. It was not written with the intention to be an actual README document. Also, some of the formatting in the code examples in the readme itself did not translate correctly when converted into the .md file that you see before you. Thank you for understanding. Please reach out to me if you have any questions and feel free to use the examples in this repo for your own palette swap tool.  </td>
+ </tr>
 </table>
+
+When you right click a valid texture > go to Create > and select `Create Palette`, the Palette Swapper samples colors from the  selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. It scans the entire image for unique colors, and outputs a color palette object...
+![img](https://github.com/emanisgrand/Palette-Swapping/blob/master/README/Create%20a%20new%20scriptable%20obj.gif)
+
+which you can then place on any sprite containing the `Palette Swapper` script.  
+
+
+
 - It's best to disable **Compression** for any texture .
 - Any texture being used in this example should have no **Compression** in order to avoid having an excess of colors in each palette. 
 - it must be read/write enabled in its advanced options. 
