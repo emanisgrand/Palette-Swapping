@@ -14,15 +14,15 @@
 My current TODOs:
 - Optimize Draw Calls
 
-##Image Import Settings
+## Image Import Settings
 - in the `Default` section it's best to have `Compression` set to `None`.  
 - Under `Advanced`, make sure `Read/Write Enabled` is checked. ☑ 
 
-##Next Step
+## Next Step
 When you right click a valid texture (such as a sprite sheet) > Click `Create` > and select `Color Palette`.
 ![img](https://github.com/emanisgrand/Palette-Swapping/blob/master/README/Create%20a%20new%20scriptable%20obj.gif)
 
-##How It Works
+## How It Works
 The `Color Paltte` is a custom Asset Utilitiy which samples unique colors from the selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. In the example scene, the image file isolates every last color in the sprite in order to optimize the scan. This is not required, but it is good practice.
 
 
