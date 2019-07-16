@@ -23,7 +23,7 @@ When you right click a valid texture (such as a sprite sheet) > Click `Create` >
 ![img](https://github.com/emanisgrand/Palette-Swapping/blob/master/README/Create%20a%20new%20scriptable%20obj.gif)
 
 ## How It Works
-The `Color Paltte` is a custom Asset Utilitiy which samples unique colors from the selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. In the example scene, the image file isolates every last color in the sprite in order to optimize the scan. This is not required, but it is good practice.
+The `Color Paltte` is a custom Asset Utilitiy which samples unique colors from the selected texture, scanning it from the upper-left-most point and working its way to the right, then down. Kind of like a typewriter. In the example scene, the image file isolates every last color in the sprite in order to optimize the scan.
 
 
 It scans the entire image for unique colors, and outputs a color palette object...
@@ -34,7 +34,9 @@ which you can then place on any sprite containing the `Palette Swapper` script.
 
 The fewer amount of colors your spritesheet has, the easier it will be, but it's all up to you.
 
+Once you have a new palette, simply use the color picker in the `New Color` column to replace the original colors, and apply the new palette to your gameobject. 
 
+No need to reanimate a ready-to-play sprite. 
 
 
 
