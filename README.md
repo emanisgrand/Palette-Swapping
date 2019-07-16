@@ -1,6 +1,7 @@
 # Palette-Swapping
 Basic palette swapping script. Only slightly optimized. Made for learning.
-**Reader beware: The following README were written as notes and not written as an actual official README document.
+
+Reader beware: The following README is just the transcribed notes that I took while making the palette swap code. It was not written as an actual official README document.
 
 <table>
   <tr>
