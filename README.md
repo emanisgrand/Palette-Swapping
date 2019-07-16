@@ -219,11 +219,9 @@ Anywhere that the unity editor is referenced. See code for example. It’s prett
 
 We want to resolve the problem of multiple draw calls for each instance of the same texture. And we will.
 
-We create a new public property to allow us to cache a texture.
+- We create a new public property to allow us to cache a texture.
 
-I moved quite a few things around. Review the code and the video. 
-
-NullReferenceException: Object reference not set to an instance of an object
+- Fixed the NullReferenceException: Object reference not set to an instance of an object
 
 PaletteSwapper.SwapColors (ColorPalette palette) (at Assets/Scripts/PaletteSwapper.cs:29)
 
